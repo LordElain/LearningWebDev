@@ -21,17 +21,49 @@
             background: white;
             color: gray;
             padding: 20px;
+            display: flex;
+            flex-direction: row;
+          }
+          ul
+          {
+            margin: 0px;
+            padding: 0px;
+            list-style-type: none;
+          }
+          li
+          {
+            display: inline-block;
+            margin-right: 20px;
           }
           footer
           {
             background: black;
             padding: 10px 20px;
           }
+          div
+          {
+            background: red;
+            margin: auto;
+            width: 100px;
+          }
         </style>
     </head>
         <body>
-          <header>header</header>
-          <section>triple selection</section>
+          <header>
+            <nav>
+              <ul>
+                <li>Home</li>
+                <li>Location</li>
+                <li>Contact</li>
+              </ul>
+            </nav>
+            <h1>Title</h1>
+          </header>
+          <section>
+            <div>a</div>
+            <div>b</div>
+            <div>c</div>
+        </section>
           <section>lower selection</section>
           <footer>footer</footer>
 
