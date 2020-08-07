@@ -1,0 +1,43 @@
+body
+{
+  background: rgb(95, 95, 95);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header
+{
+  background: black;
+  padding: 20px;
+}
+section
+{
+  background: white;
+  color: gray;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+}
+ul
+{
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+li
+{
+  display: inline-block;
+  margin-right: 20px;
+}
+footer
+{
+  background: black;
+  padding: 10px 20px;
+}
+div
+{
+  background: red;
+  margin: auto;
+  width: 100px;
+}
